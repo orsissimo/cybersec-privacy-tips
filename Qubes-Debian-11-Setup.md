@@ -2,7 +2,7 @@
 
 This guide will help you to set up your development environment in Qubes OS for Ethereum application development.
 
-## TEMPLATEVM:
+## TemplateVM:
 
 First, update your system and install some necessary packages:
 
@@ -19,7 +19,7 @@ Optionally, you can also install `pipx`:
 sudo apt-get pipx
 ```
 
-## APPVM:
+## AppVM:
 
 Now, inside your AppVM, install Node Version Manager (nvm), set the default version of Node.js, and install some global npm packages:
 
