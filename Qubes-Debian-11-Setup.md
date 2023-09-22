@@ -43,7 +43,7 @@ foundryup
 If you are working with a React project, you might need to install these npm packages (not globally):
 
 ```bash
-# npm install create-react-app create-next-app truffle ganache-cli web3 ethers eslint prettier
+npm install create-react-app create-next-app truffle ganache-cli web3 ethers eslint prettier
 ```
 
 ### Python 3.9 Setup:
@@ -55,20 +55,20 @@ sudo apt-get install python3-venv
 mkdir venvs
 python3 -m venv venvs/brownie-env
 source venvs/brownie-env/bin/activate
-# to deactivate use: deactivate
+deactivate
 ```
 
 Then, install some necessary Python packages:
 
 ```bash
 pip install eth-brownie web3 pytest requests termcolor
-# to list installed packages use: pip list
+pip list
 ```
 
 To uninstall all packages, you can use:
 
 ```bash
-# pip freeze | xargs pip uninstall -y
+pip freeze | xargs pip uninstall -y
 ```
 
 Finally, install some applications using Snap:
@@ -77,14 +77,11 @@ Finally, install some applications using Snap:
 sudo snap install code --classic
 sudo snap install gitkraken --classic
 sudo snap install telegram-desktop
-# to list installed snap apps use: snap list
+snap list
 ```
 
 For other Snap applications, visit the [Snap Store](https://snapcraft.io/store).
+
 ```
-
-Remember to replace `#` with nothing in front of a command if you want to run it.
-
 Happy coding!
 ```
-Please replace the '#' character with nothing in front of a command if you want to run it.
