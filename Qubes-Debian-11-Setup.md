@@ -88,7 +88,7 @@ sudo apt-get install gdebi-core
 sudo gdebi GitHubDesktop-linux-3.1.1-linux1.deb
 ```
 
-If you want to use a VPN, I'd recommend to install OpenVPN and add it to path (/usr/sbin in the example):
+If you want to use a VPN, I'd recommend to install OpenVPN and add it to path (`/usr/sbin` in the example):
 ```bash
 sudo apt-get install openvpn
 whereis protonvpn
