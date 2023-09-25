@@ -79,6 +79,7 @@ sudo snap install gitkraken --classic
 sudo snap install telegram-desktop
 snap list
 ```
+For other Snap applications, visit the [Snap Store](https://snapcraft.io/store).
 
 If you want to use Github Desktop:
 
@@ -97,8 +98,6 @@ export PATH=$PATH:/usr/sbin
 source ~/.bashrc
 ```
 Now you can [configure ProtonVPN on top of OpenVPN](https://protonvpn.com/support/linux-openvpn/)
-
-For other Snap applications, visit the [Snap Store](https://snapcraft.io/store).
 
 ```
 Happy coding!
