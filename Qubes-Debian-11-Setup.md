@@ -97,7 +97,10 @@ nano ~/.bashrc
 export PATH=$PATH:/usr/sbin
 source ~/.bashrc
 ```
-Now you can [configure ProtonVPN on top of OpenVPN](https://protonvpn.com/support/linux-openvpn/)
+Now you can [configure ProtonVPN on top of OpenVPN](https://protonvpn.com/support/linux-openvpn/) and then start the service by running:
+```bash
+sudo openvpn --config /home/user/ProtonVPN/nl-free-80.protonvpn.net.udp.ovpn --auth-user-pass /home/user/ProtonVPN/credentials.txt
+```
 
 ```
 Happy coding!
