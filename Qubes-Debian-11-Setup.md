@@ -29,7 +29,7 @@ source /home/user/.bashrc
 nvm install node
 nvm alias default node
 
-sudo npm install -g yarn solc
+sudo npm install -g yarn solc ganache-cli
 ```
 
 Next, install [Foundry](https://getfoundry.sh/), a toolkit for Ethereum application development:
@@ -43,7 +43,20 @@ foundryup
 If you are working with a React project, you might need to install these npm packages (not globally):
 
 ```bash
-npm install create-react-app create-next-app truffle ganache-cli web3 ethers eslint prettier
+npm install create-react-app create-next-app truffle web3 ethers eslint prettier
+```
+
+### Install Solidity:
+
+```bash
+git clone https://github.com/ethereum/solidity.git
+cd solidity
+mkdir build
+cd build
+cmake ..
+make
+export PATH=$PATH:/home/user/solidity/build/solc
+solc --version
 ```
 
 ### Python 3.9 Setup:
