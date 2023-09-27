@@ -10,7 +10,7 @@ First, update your system and install some necessary packages:
 sudo apt-get update
 sudo apt-get upgrade
 
-sudo apt-get install build-essential cmake vim emacs git python3 python3-pip default-jdk nodejs npm curl wget snapd qubes-snapd-helper
+sudo apt-get install build-essential cmake libboost-all-dev vim emacs git python3 python3-pip default-jdk nodejs npm curl wget snapd qubes-snapd-helper
 ```
 
 Optionally, you can also install `pipx`:
