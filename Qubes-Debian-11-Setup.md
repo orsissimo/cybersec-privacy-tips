@@ -90,6 +90,7 @@ Finally, install some applications using Snap:
 sudo snap install code --classic
 sudo snap install gitkraken --classic
 sudo snap install telegram-desktop
+sudo snap install spotify
 snap list
 ```
 For other Snap applications, visit the [Snap Store](https://snapcraft.io/store).
