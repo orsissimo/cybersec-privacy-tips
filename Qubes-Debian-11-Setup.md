@@ -1,4 +1,4 @@
-# Qubes OS Setup for Ethereum Development
+# Qubes OS Setup
 
 This guide will help you to set up your development environment in Qubes OS for Ethereum application development.
 
