@@ -19,6 +19,14 @@ Optionally, you can also install `pipx`:
 sudo apt-get pipx
 ```
 
+If you want to use Github Desktop:
+
+```bash
+sudo wget https://github.com/shiftkey/desktop/releases/download/release-3.1.1-linux1/GitHubDesktop-linux-3.1.1-linux1.deb
+sudo apt-get install gdebi-core
+sudo gdebi GitHubDesktop-linux-3.1.1-linux1.deb
+```
+
 ## AppVM:
 
 Now, inside your AppVM, install Node Version Manager (nvm), set the default version of Node.js, and install some global npm packages:
@@ -94,14 +102,6 @@ sudo snap install spotify
 snap list
 ```
 For other Snap applications, visit the [Snap Store](https://snapcraft.io/store).
-
-If you want to use Github Desktop:
-
-```bash
-sudo wget https://github.com/shiftkey/desktop/releases/download/release-3.1.1-linux1/GitHubDesktop-linux-3.1.1-linux1.deb
-sudo apt-get install gdebi-core
-sudo gdebi GitHubDesktop-linux-3.1.1-linux1.deb
-```
 
 If you want to use a VPN, I'd recommend to install OpenVPN and add it to path (`/usr/sbin` in the example):
 ```bash
