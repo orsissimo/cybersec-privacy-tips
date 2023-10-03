@@ -4,7 +4,7 @@ Welcome Ninja! Our goal here is to create the ultimate cheat sheet to level up y
 
 ## :rocket: What's Inside?
 
-We've put together a collection of .md files packed with configurations, tips, and guides on various cyber security and privacy topics.
+I've put together a collection of .md files packed with configurations, tips, and guides on various cyber security and privacy topics.
 
 ### :closed_lock_with_key: Sections
 
