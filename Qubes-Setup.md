@@ -1,6 +1,8 @@
 # Qubes OS Setup
 
-This guide will help you to set up your development environment in Qubes OS for Ethereum application development.
+I'm using Qubes 4.1 with Debian 11 Template VMs.
+
+This guide will help you to set up your development environment in Qubes OS.
 
 ## TemplateVM:
 
@@ -10,13 +12,15 @@ First, update your system and install some necessary packages:
 sudo apt-get update
 sudo apt-get upgrade
 
-sudo apt-get install build-essential cmake libboost-all-dev vim emacs git python3 python3-pip default-jdk nodejs npm curl wget snapd qubes-snapd-helper libreoffice
+sudo apt-get install curl wget vim emacs qubes-snapd-helper
+sudo apt-get install build-essential git cmake libboost-all-dev
+sudo apt-get install python3 python3-pip default-jdk nodejs npm
 ```
 
-Optionally, you can also install `pipx`:
+Optionally, you can also install:
 
 ```bash
-sudo apt-get pipx
+sudo apt-get pipx snapd libreoffice
 ```
 
 If you want to use Github Desktop:
@@ -48,12 +52,6 @@ source /home/user/.bashrc
 foundryup
 ```
 
-If you are working with a React project, you might need to install these npm packages (not globally):
-
-```bash
-npm install create-react-app create-next-app truffle web3 ethers eslint prettier
-```
-
 ### Install Solidity:
 
 ```bash
@@ -67,9 +65,11 @@ export PATH=$PATH:/home/user/solidity/build/solc
 solc --version
 ```
 
-### Python 3.9 Setup:
+### Python Setup:
 
-It is recommended to use Python 3.9. Install `python3-venv` and create a virtual environment:
+It is recommended to use Python 3.9 (Comes by default with Debian 11).
+
+Install `python3-venv` and create a virtual environment:
 
 ```bash
 sudo apt-get install python3-venv
@@ -79,7 +79,7 @@ source venvs/brownie-env/bin/activate
 deactivate
 ```
 
-Then, install some necessary Python packages:
+Then, install some (un)necessary Python packages:
 
 ```bash
 pip install eth-brownie web3 pytest requests termcolor
@@ -101,9 +101,11 @@ sudo snap install telegram-desktop
 sudo snap install spotify
 snap list
 ```
+
 For other Snap applications, visit the [Snap Store](https://snapcraft.io/store).
 
 If you want to use a VPN, I'd recommend to install OpenVPN and add it to path (`/usr/sbin` in the example):
+
 ```bash
 sudo apt-get install openvpn
 whereis protonvpn
@@ -111,7 +113,9 @@ nano ~/.bashrc
 export PATH=$PATH:/usr/sbin
 source ~/.bashrc
 ```
+
 Now you can [configure ProtonVPN on top of OpenVPN](https://protonvpn.com/support/linux-openvpn/) and then start the service by running:
+
 ```bash
 sudo openvpn --config /home/user/ProtonVPN/nl-free-80.protonvpn.net.udp.ovpn --auth-user-pass /home/user/ProtonVPN/credentials.txt
 ```
