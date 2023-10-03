@@ -1,6 +1,6 @@
 # Your Go-To Guide to Being a Cyber Ninja
 
-Welcome Ninja! Our goal here is tothe ultimate cheat sheet to level up your cyber security and privacy game. Here, we believe in turning everyone into a cyber ninja, one tip at a time.
+Welcome Ninja! Our goal here is to level up your cyber security and privacy game. Here, we believe in turning everyone into a cyber ninja, one tip at a time.
 
 ## :rocket: What's Inside?
 
