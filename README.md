@@ -1,10 +1,10 @@
 # Your Go-To Guide to Being a Cyber Ninja
 
-Welcome Ninja! Our goal here is to create the ultimate cheat sheet to level up your cyber security and privacy game. Here, we believe in turning everyone into a cyber ninja, one tip at a time.
+Welcome Ninja! Our goal here is tothe ultimate cheat sheet to level up your cyber security and privacy game. Here, we believe in turning everyone into a cyber ninja, one tip at a time.
 
 ## :rocket: What's Inside?
 
-I've put together a collection of .md files packed with configurations, tips, and guides on various cyber security and privacy topics.
+We've put together a collection of .md files packed with configurations, tips, and guides on various cyber security and privacy topics.
 
 ### :closed_lock_with_key: Sections
 
@@ -12,7 +12,7 @@ I've put together a collection of .md files packed with configurations, tips, an
 
 - **GrapheneOS**: Explore the realms of GrapheneOS, an open-source privacy and security focused mobile OS with Android app compatibility.
 
-- **Apps**: Get to know about various apps (like browsers, search engines, mail, etc.) and how to use them securely.
+- **Miscellaneous**: Get to know about various apps (like browsers, search engines, mail, etc.) and how to use them securely.
 
 ## :page_with_curl: How to Use
 
