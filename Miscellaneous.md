@@ -26,6 +26,10 @@ This document outlines some apps, services, and providers that are designed with
 
 1. **ProtonMail**: An email service that prioritizes privacy and security. It uses end-to-end encryption to ensure only you can access your emails.
 
+#### Password Manager
+
+1. **KeePassXC**: The one and only, it's an offline password manager so you can sleep well at night. But remember to make regular backups of your passwords!
+
 ### Search Engines
 
 1. **DuckDuckGo**: This search engine doesn't track your searches, reducing the amount of data collected about you online.
