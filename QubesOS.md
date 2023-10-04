@@ -4,6 +4,13 @@ I'm using Qubes 4.1 with Debian 11 Template VMs.
 
 This guide will help you to set up your development environment in Qubes OS.
 
+To copy/move a file from a Qube to another, run
+
+```bash
+qvm-copy /path/of/file target-vm-name
+qvm-move /path/of/file target-vm-name
+```
+
 ## TemplateVM:
 
 First, update your system and install some necessary packages:
@@ -26,9 +33,29 @@ sudo apt-get pipx snapd libreoffice
 If you want to use Github Desktop:
 
 ```bash
-sudo wget https://github.com/shiftkey/desktop/releases/download/release-3.1.1-linux1/GitHubDesktop-linux-3.1.1-linux1.deb
+Run in an AppVM and move it to your TemplateVM: sudo wget https://github.com/shiftkey/desktop/releases/download/release-3.1.1-linux1/GitHubDesktop-linux-3.1.1-linux1.deb
 sudo apt-get install gdebi-core
 sudo gdebi GitHubDesktop-linux-3.1.1-linux1.deb
+```
+
+I recommend using [LibreWolf](https://librewolf.net/installation/debian/) as your default browser:
+
+```bash
+sudo apt update && sudo apt install -y wget gnupg lsb-release apt-transport-https ca-certificates
+distro=$(if echo " una bookworm vanessa focal jammy bullseye vera uma " | grep -q " $(lsb_release -sc) "; then echo $(lsb_release -sc); else echo focal; fi)
+Run in an AppVM and move it to your TemplateVM: wget -O- https://deb.librewolf.net/keyring.gpg | sudo gpg --dearmor -o /usr/share/keyrings/librewolf.gpg
+
+sudo tee /etc/apt/sources.list.d/librewolf.sources << EOF > /dev/null
+Types: deb
+URIs: https://deb.librewolf.net
+Suites: $distro
+Components: main
+Architectures: amd64
+Signed-By: /usr/share/keyrings/librewolf.gpg
+EOF
+
+sudo apt update
+sudo apt install librewolf -y
 ```
 
 ## AppVM:

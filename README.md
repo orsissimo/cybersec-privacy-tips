@@ -8,11 +8,11 @@ We've put together a collection of .md files packed with configurations, tips, a
 
 ### :closed_lock_with_key: Sections
 
-- **Qubes**: Dive into the world of Qubes OS, a high-security operating system that uses virtualization to provide increased privacy and security.
+- **[QubesOS](QubesOS.md)**: Dive into the world of Qubes OS, a high-security operating system that uses virtualization to provide increased privacy and security.
 
-- **GrapheneOS**: Explore the realms of GrapheneOS, an open-source privacy and security focused mobile OS with Android app compatibility.
+- **[GrapheneOS](GrapheneOS.md)**: Explore the realms of GrapheneOS, an open-source privacy and security focused mobile OS with Android app compatibility.
 
-- **Miscellaneous**: Get to know about various apps (like browsers, search engines, mail, etc.) and how to use them securely.
+- **[Miscellaneous](Miscellaneous.md)**: Get to know about various apps (like browsers, search engines, mail, etc.) and how to use them securely.
 
 ## :page_with_curl: How to Use
 
