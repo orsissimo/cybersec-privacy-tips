@@ -135,7 +135,7 @@ If you want to use a VPN, I'd recommend to install OpenVPN and add it to path (`
 
 ```bash
 sudo apt-get install openvpn
-whereis protonvpn
+whereis openvpn
 nano ~/.bashrc
 export PATH=$PATH:/usr/sbin
 source ~/.bashrc
