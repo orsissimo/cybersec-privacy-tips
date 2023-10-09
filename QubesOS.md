@@ -131,21 +131,7 @@ snap list
 
 For other Snap applications, visit the [Snap Store](https://snapcraft.io/store).
 
-If you want to use a VPN, I'd recommend to install OpenVPN and add it to path (`/usr/sbin` in the example):
-
-```bash
-sudo apt-get install openvpn
-whereis openvpn
-nano ~/.bashrc
-export PATH=$PATH:/usr/sbin
-source ~/.bashrc
-```
-
-Now you can [configure ProtonVPN on top of OpenVPN](https://protonvpn.com/support/linux-openvpn/) and then start the service by running:
-
-```bash
-sudo openvpn --config /home/user/ProtonVPN/nl-free-80.protonvpn.net.udp.ovpn --auth-user-pass /home/user/ProtonVPN/credentials.txt
-```
+If you want to use a VPN, follow the [Mullvad guide for Qubes 4](https://mullvad.net/en/help/qubes-os-4-and-mullvad-vpn/).
 
 ```
 Happy coding!
