@@ -59,6 +59,7 @@ sudo apt install librewolf -y
 ```
 
 You can also use [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium-debian/blob/unportable/README.md#installing).
+
 [Download binaries](https://ungoogled-software.github.io/ungoogled-chromium-binaries/releases/debian_unportable/amd64/100.0.4896.127-1) from an AppVM, move them to your TemplateVM and install them:
 
 ```bash
