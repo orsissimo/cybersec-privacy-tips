@@ -58,6 +58,17 @@ sudo apt update
 sudo apt install librewolf -y
 ```
 
+You can also use [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium-debian/blob/unportable/README.md#installing).
+[Download binaries](https://ungoogled-software.github.io/ungoogled-chromium-binaries/releases/debian_unportable/amd64/100.0.4896.127-1) from an AppVM, move them to your TemplateVM and install them:
+
+```bash
+dpkg -i ungoogled-chromium_*.deb ungoogled-chromium-common_*.deb
+```
+
+To install extensions and themes on Ungoogled Chromium, go to `chrome://settings/` and drag and drop a .CRX theme/extension.
+You can download Chrome extensions as .CRX using [CRX Extractor](http://crxextractor.com/).
+
+
 ## AppVM:
 
 Now, inside your AppVM, install Node Version Manager (nvm), set the default version of Node.js, and install some global npm packages:
