@@ -19,7 +19,7 @@ First, update your system and install some necessary packages:
 sudo apt-get update
 sudo apt-get upgrade
 
-sudo apt-get install curl wget vim emacs qubes-snapd-helper
+sudo apt-get install curl wget vim emacs qubes-snapd-helper fonts-noto-color-emoji
 sudo apt-get install build-essential git cmake libboost-all-dev
 sudo apt-get install python3 python3-pip default-jdk nodejs npm
 ```
